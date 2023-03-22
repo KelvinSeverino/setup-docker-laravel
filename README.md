@@ -22,7 +22,7 @@ cd setup-docker-laravel/
 
 Executar comando composer criar projeto laravel (laravel/laravel ./source/NomeDoProjeto)
 ```sh
-composer -vvv create-project --prefer-dist laravel/laravel ./source/laravel "9.*" --prefer-dist
+composer -vvv create-project --prefer-dist laravel/laravel ./source/laravel "9.*"
 ```
 
 Acessar diretório do projeto
