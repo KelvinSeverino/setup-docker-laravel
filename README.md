@@ -20,6 +20,11 @@ Acessar diretório do repositorio
 cd setup-docker-laravel/
 ```
 
+Remover versionamento GIT
+```sh
+rm -rf .git/
+```
+
 Executar comando composer criar projeto laravel (laravel/laravel ./source/NomeDoProjeto)
 ```sh
 composer -vvv create-project --prefer-dist laravel/laravel ./source/laravel "9.*"
